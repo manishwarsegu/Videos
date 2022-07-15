@@ -21,7 +21,7 @@ import {
 } from 'react-native';
 
 import Login from './containers/Login/LoginContainer.js';
-import VideosScreen from './containers/Videos/VideosContainer.js';
+// import VideosScreen from './containers/Videos/VideosContainer.js';
 
 
 
@@ -56,7 +56,7 @@ const App = () => {
       initialRouteName="Home"
       >
         <Stack.Screen name="Home" component={Login} />
-        <Stack.Screen name="Details" component={VideosScreen} />
+        {/* <Stack.Screen name="Details" component={VideosScreen} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
